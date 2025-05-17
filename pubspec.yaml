@@ -13,8 +13,9 @@ dependencies:
   webview_windows:
     git:
       url: https://github.com/MosioKix/webview_windows.git
-      ref: main  # اگه شاخه‌ی فورک‌شده‌ات main نیست، بذار master یا همونی که هست
+      ref: main 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+ 
