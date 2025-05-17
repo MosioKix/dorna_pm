@@ -1,0 +1,18 @@
+name: win_flutter
+description: "Windows WebView project"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_windows: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
