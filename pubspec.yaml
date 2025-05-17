@@ -10,9 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  webview_windows: ^0.4.0
+  webview_windows:
+    git:
+      url: https://github.com/MosioKix/webview_windows.git
+      ref: main  # اگه شاخه‌ی فورک‌شده‌ات main نیست، بذار master یا همونی که هست
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
